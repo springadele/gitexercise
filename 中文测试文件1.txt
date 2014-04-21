@@ -1,0 +1,5 @@
+中文测试文件1
+为什么在C:\Users\adelejia下还有一个gitconfig文件
+
+[alias]
+go = “! bash -c \”git pull && git add .; if [ \\\"$*\\\" == \\\"\\\" ]; then git commit -a; else git commit -am \\\”$*\\\”; fi; git push origin master:your-id;\”" 
